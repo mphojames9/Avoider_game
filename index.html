@@ -1,70 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Avoide Game</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avoider-game</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-    <header>
-        <div class="highScoreSection">
-            High Score: <strong class="highScore">0</strong>
+  <section>
+    <div class="gamePad">
+      <div class="score">Score: <span id="score">0</span></div>
+      <div class="header">Avoider-Game</div>
+      <div class="container">
+        <div class="game">
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          
         </div>
-        <div class="scoreSection">
-            Score: <strong class="score"></strong>
+        <div class="buttons">
+          <button id="leftButton" onclick="buttonClickLeft()"><</button>
+          <button id="rightButton" onclick="buttonClickRight()">></button>
+          <button id="reset" onclick="reset()">reset</button>
+        </input>
         </div>
-    </header>
+      </div>
     </div>
-       <div class="grid">
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-</div>
-<div class="buttons">
-    <button class="playAgain">Start</button>
-    <button class="exit">Reset game</button>
-</div>
-
-<div class="playBtns">
-    <button class="left">Left</button>
-    <button class="right">Right</button>
-</div>
-
+  </section>
 </body>
 </html>
